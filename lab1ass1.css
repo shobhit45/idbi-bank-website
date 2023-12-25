@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(199, 204, 225);
+}
+.heading{
+    font-size: xx-large;
+    align-items: center;
+}
+.menu{
+    padding: 15px;
+    gap:4%; 
+    display: flex;
+}
+
+a:hover{
+    color: brown;
+}
+.intro{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(227, 236, 233);
+    background: linear-gradient(90deg, rgb(46, 52, 50) 0%, rgb(39, 35, 53) 50%, rgb(33, 44, 45) 74%, rgb(57, 75, 49) 100%);
+    gap: 15%;
+}
+   
+.logo{
+    width: 15%;
+    height: min-content;
+   
+}
+.menu:link{
+    background-color: aqua;
+}
+.news{
+    display: flex;
+    font-size: larger;
+    padding: 5%;
+    padding-bottom: 1%;
+    gap:4%;
+}
+.float{
+    background-color: rgb(237, 185, 168);
+    border: 5px  rgba(188, 116, 130, 0.903);
+    border-style: dashed;
+}
+.info{
+    width: 60%;
+    font-style: italic;
+
+}
+.a{
+    width: 35%;
+    margin-left: 5%;
+    font-size: larger;
+   
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 15cpx;
+    border-color: rgb(32, 73, 236);
+    border-style: solid;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+.center{
+    display: flex !important;
+    flex-direction: column  !important;
+    justify-content: center  !important;
+}
