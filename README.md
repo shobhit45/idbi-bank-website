@@ -4,3 +4,13 @@ Technologies Used
 Frontend: HTML, CSS
 Backend: PHP
 Database: MySQL
+
+Configuration
+Database Configuration: Update the config.php file with your database credentials.
+php
+Copy code
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'bank');
+Server Requirements: Ensure your server supports PHP and MySQL.
