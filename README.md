@@ -5,16 +5,16 @@ This project is a comprehensive web-based banking system developed using PHP, HT
 
 ## Technologies Used
 
-Frontend: HTML, CSS
-Backend: PHP
-Database: MySQL
+- Frontend: HTML, CSS
+- Backend: PHP
+- Database: MySQL
 
 ## Configuration
 # Database Configuration: Update the conn.php file with your database credentials.
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'bank');
+-define('DB_SERVER', 'localhost');
+-define('DB_USERNAME', 'root');
+-define('DB_PASSWORD', '');
+-define('DB_NAME', 'bank');
 
 ## Server Requirements: Ensure your server supports PHP and MySQL.
